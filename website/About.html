@@ -1,0 +1,118 @@
+<! DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Tecoy India Pvt.Ltd</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100;1,400;1,600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <section class= "sub-header">
+            <nav>
+                <a href="home.html"><img src="imges/log.gif"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-close" onclick="hideMenu()"></i>
+                     <ul>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="About.html">ABOUT</a></li>
+                        <li><a href="Services.html">SERVICES</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                            
+                        
+                    </ul>
+                </div>
+                <i class="fa fa-bars"onclick="showMenu()"></i>
+            </nav>
+           <h1>ABOUT US</h1>
+        </section>
+
+
+
+
+<!---------testimonials---------->
+<section class="testimonials">
+    <h1>COMPANY OWNER</h1>
+    <div class="row">
+        <div class="testimonials-col">
+            <img src="imges/owner.png">
+            <div>
+            <p>Tecoy India Pvt.Ltd is well equripped with qualified ,aggressive, experienced and Trained Sales force.The organization is established by persons having more than 20 years of Working experience with all major DEMs Distributors</p>
+            <h4>Mukesh</h4>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+        </div>
+        </div>
+    </div>
+
+
+</section>
+
+<!--------call to action------->
+<section class="cta">
+    <h1>purchare a Good anywhera from the states </h1>
+    <a href="" class="hero-btn">Contact Us</a>
+</section>
+
+<!--------footer------->
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>TECOYINDIA Pvt.Ltd. areas of Net Work Integration and or  service...TC!  provides full  old	that ac:<br> dress your company’s complete  ted norm Jtion.No mar what over platform, to’etc. your technology needs of MA Pvt. Ltd. Has <br>the expense to dth1e both business and technology strata.</p>
+    <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---------------javascript toggle menu------>
+        <script>
+            var navLinks =document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right ="0"; 
+            }
+            function hideMenu(){
+                navLinks.style.right ="-200px"; 
+            }
+        </script>
+<!----------jquery cnd-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script type="text/javascript">
+            $('.slider').slick({
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                autoplay: true,
+                autoplaySpeed: 2000,
+              });
+        </script>
+    </body>
+</html>
